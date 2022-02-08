@@ -4,7 +4,7 @@ import string
 def loadWords():
     alls = ""
     allPossible = []
-
+#this fives.txt is the actual dictionary that's used in wordle... copied from an article
     with open("fives.txt", "r", newline='') as f:
         for word in f:
             word = word.lower().strip()
