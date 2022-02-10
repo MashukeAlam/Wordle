@@ -1,0 +1,28 @@
+:root{
+    --back: lightgrey;
+    --front: black;
+    --side: 80px
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.box {
+    height: var(--side);
+    width: var(--side);
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: var(--back);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s;
+}
